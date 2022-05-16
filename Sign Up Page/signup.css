@@ -1,0 +1,144 @@
+body {
+    background-image: url(https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg);
+ align-items: center;  
+ text-align: center;
+  font-family: Poppins;
+  /* padding-left: 20px; */
+}
+
+header {
+    /* background-color:red; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    float: left;
+}
+
+ul li {
+    display: inline;
+    margin: 30px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+#nav-ri {
+    float: right;
+    margin-right: 20px;
+}
+#txt{ text-align: center;
+    margin: 30px;
+    background-color:#cc98fa;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+fieldset{
+    display: block;
+    margin:auto;
+    background-color: white;
+    border-radius: 7px;
+    height: 650px;
+    width:250px; 
+    border:0;
+    margin-top: 30px;
+}
+#email,#password,#name,#number{
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    margin:auto;
+    margin-top: 40px;
+    font-size: medium;
+    border: 0;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #3B5998;
+    width: 300px;
+    height: 30px;
+    font-family: poppins;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+label{
+    font-size: small;
+    text-align: l;
+}
+#submit{
+    margin: 20px;
+    display: block;
+    box-sizing: content-box;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #a64bf4;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+    align-items: center;
+   
+    /* position: absolute; */
+   
+    background: #a64bf4;
+    /* background: -webkit-linear-gradient(, #00dbde, #fc00ff, #00dbde, #fc00ff); */
+  
+}
+
+#submit:hover{
+cursor: pointer;
+    background: #a97fcd;
+    
+transition: .5;
+opacity: 1;
+}
+
+.fa{
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    /* text-align: center; */
+    height: 12px;
+    width: 12px;
+    text-decoration: none;
+    align-items: center;
+    margin: 5px 2px;
+    /* align-items: center; */
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    border-radius: 180%;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google{
+    background-color: rgb(221, 118, 118);
+    color: aliceblue;
+    /* font-size: 40px; */
+}
